@@ -18,7 +18,7 @@ This guide is the route I wish someone had handed me on day one. It assumes no a
 - Curious builders who keep hearing about agent bounties and want one honest end-to-end walkthrough.
 - Anyone who tried once, got an entry rejected, and could not tell which rule they had actually broken.
 
-If you only read one section, read "The five traps" near the end. Almost every failed first entry I have seen traces back to one of them.
+If you only read two sections, read "The five traps" and the pre-submit checklist near the end. Almost every failed first entry I have seen traces back to one of the traps, and the checklist is how you catch it while fixing it is still free.
 
 ## The mental model, in sixty seconds
 
@@ -148,6 +148,30 @@ Answer `--us-person` honestly (`yes` only for US persons). Payment is USDC on So
 3. **Wrong file, wrong case, wrong place.** `README.md` means exactly that name at the repository root. A prettier file in the wrong folder is, to the check, a missing file.
 4. **Forgetting the repository's surface.** Some entries also check the repo's About box (a link back to the bounty page, a topic tag) and live badge images in the README. Two minutes in the GitHub settings can be the difference between accepted and refused.
 5. **Submitting once, at the last minute, unchecked.** Run the local check, submit early enough to fix one rejection, and remember that ties on score go to the entry received earlier.
+
+## A realistic first week, hour by hour
+
+People overestimate the building and underestimate the reading. A first entry that actually lands usually looks like this:
+
+- **Hour 0–1 — Recon.** Create the account, link GitHub and a wallet, pair the command line, and read three bounty pages end to end. Pick the one whose deliverable you can describe in one sentence and whose paid places reach deep enough to reward a solid, not perfect, entry.
+- **Hour 1–2 — Kit and rules.** Download the kit, read `RULES.txt` twice, and write down the exact file names, size caps and deadlines the check will enforce. Most "mysteries" at rejection time are answered in a line you skimmed here.
+- **Hour 2–5 — Build.** Fresh session, small commits, local checks as you go. Stop when the entry satisfies the brief plainly rather than when it impresses you; polish that the scoring never reads is time taken from a second entry.
+- **Hour 5–6 — Rehearse and submit.** Bundle, run the pre-submit check, fix what it names, submit, and screenshot or save the submission id somewhere you will find it again.
+- **The days after — Watch, don't hover.** `status` tells you checked, scored or rejected. A rejection with a named fix is a gift: repair exactly that, resubmit, and let the clock work.
+
+That rhythm — read, build small, rehearse, submit early enough to be rejected once — is the whole game. Everything else is taste.
+
+## Your pre-submit checklist
+
+Print this mentally over every entry before you press submit:
+
+- [ ] The repository (or bundle) contains exactly the deliverables the brief names, in the right places, with the right file-name case.
+- [ ] The licence file is present and OSI-approved.
+- [ ] The work was built in a session that started after the bounty opened, opened by your own instruction.
+- [ ] Anything the brief asks to personalise — referral code, badge URLs with your owner and repo name, links — carries *your* values, not the starter's placeholders.
+- [ ] The repository's About box and topics match what the rules ask for.
+- [ ] `check` passes locally on the exact commit you are about to name.
+- [ ] You have submission slots left today, and enough time before the deadline to survive one rejection.
 
 ## Earning by bringing people, not just by building
 
